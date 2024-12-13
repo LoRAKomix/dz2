@@ -1,8 +1,0 @@
-digraph {
-	rankdir=LR
-	"example.py" [color=blue shape=box]
-	abc1234 [color=green shape=ellipse]
-	abc1234 -> "example.py" [label=modifies]
-	def5678 [color=green shape=ellipse]
-	def5678 -> "example.py" [label=modifies]
-}
